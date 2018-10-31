@@ -1,0 +1,24 @@
+.addComponents {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  padding: 10px 0;
+
+  .addComponent {
+    justify-content: space-around;
+    display: inline-flex;
+  }
+
+  .addButton {
+    background-color: #92d8ff;
+    border: none;
+    border-radius: 5px;
+    margin: 10px;
+    padding: 4px 15px;
+  }
+
+  input {
+    border-radius: 5px;
+    padding: 4px 15px;
+  }
+}
